@@ -1,0 +1,132 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201b2c;
+}
+
+
+.user-info img {
+    max-width: 150px; /* Defina a largura máxima para a imagem do usuário */
+    height: auto; /* Mantém a proporção da imagem */
+   
+}
+  
+.score-icon {    
+    width: 12px; /* Defina a largura desejada para a imagem de pontuação */
+    height: auto; /* Mantém a proporção da imagem */
+}
+  
+
+.user-info p {
+    display: flex; /* Para alinhar os elementos em uma linha */
+    align-items: center; /* Alinha verticalmente os itens ao centro */        
+    
+}
+
+.user-info span{
+    color: #a4b6b6de;
+    font-size: 15px;
+}
+
+.user-info h3{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #a4b6b6de;
+    font-weight: 400;
+}
+
+.user-info p img {
+    
+    margin-right: 0px; /* Adiciona um pequeno espaço entre o ícone e a pontuação */    
+}
+
+.container {    
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2f2841;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f0ffffde;
+    font-weight: 400; /* Ajusta a espessura da fonte para 400 (mais fino) */
+    margin-bottom: 20px;
+}
+
+.language-selection, .character-selection, .opponent-selection {
+    margin-top: 30px;
+}
+
+.language, .character, .opponent {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.language img, .character img, .opponent img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.btn-select {
+    display: block;
+    width: 100px;    
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: #00ff88;
+    color: #201b2c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.btn-select:hover {
+    background-color: #00ff88;
+}
+
+/* Estilos para os botões de opções */
+.game-options {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 10px;        
+}
+
+
+
+.btn-option, .btn-create {
+    
+    display: inline-block;
+    width: 120px;
+    margin: 10px 5px;        
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #a4b6b6de;
+    box-shadow: 0px 0px 10px 0px #00ff88;
+    color: #201b2c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn-create:hover{
+    background-color: #00ff88;
+}
+
+.btn-option:hover{
+    background-color: #00ff88;
+}
+
+
+  
+  
+  

@@ -7,9 +7,36 @@
     <link rel="stylesheet" href="assets/css/stylepartida.css">
 </head>
 <body>
-    <div class="race-track" onmousedown="startDrag(event)">
-        <img src="assets/img/EnemyCoringa.svg" alt="Personagem 1" id="competitor1" class="competitor" style="left: 0; width: 300px; height: 270px; bottom: -30px;">
-        <img src="assets/img/EnemySamurai.svg" alt="Personagem 2" id="competitor2" class="competitor" style="left: 0; width: 300px; height: 300px; bottom: -30px;">
+    <!-- Container Principal -->
+    <div class="container">
+        <!-- Cardbox Estilizado -->
+        <div class="cardbox">
+            <!-- Corrida de Personagens com imagem de fundo -->
+            <div class="race-track" onmousedown="startDrag(event)">
+                <img src="assets/img/EnemySamurai.svg" alt="Personagem 1" id="competitor1" class="competitor" style="left: 0;">
+                <img src="assets/img/EnemyCoringa.svg" alt="Personagem 2" id="competitor2" class="competitor" style="left: 50px;">
+                <div class="race-background"></div> 
+            </div>
+            
+            <!-- Checkboxes -->
+            <div class="checkbox-container">
+                <h2>Tarefas concluídas:</h2>
+                <form class="checkbox-grid">
+                    <label for="character1"><input type="checkbox" id="character1" name="character" value="personagem1"> Instalação do Python </label>
+                    <label for="character2"><input type="checkbox" id="character2" name="character" value="personagem2"> Ambiente de desenvolvimento</label>
+                    <label for="character3"><input type="checkbox" id="character3" name="character" value="personagem3"> Conceitos básicos</label>
+                    <label for="character4"><input type="checkbox" id="character4" name="character" value="personagem4"> Funções e modularidade</label>
+                    <label for="character5"><input type="checkbox" id="character5" name="character" value="personagem5"> Manipulação de strings e listas</label>
+                    <label for="character6"><input type="checkbox" id="character6" name="character" value="personagem6"> Estruturas de dados avançadas</label>
+                    <label for="character7"><input type="checkbox" id="character7" name="character" value="personagem7"> Orientação a objetos</label>
+                    <label for="character8"><input type="checkbox" id="character8" name="character" value="personagem8"> Manipulação de arquivos</label>
+                    <label for="character9"><input type="checkbox" id="character9" name="character" value="personagem9"> Tratamento de exceções</label>
+                    <label for="character10"><input type="checkbox" id="character10" name="character" value="personagem10"> Módulos e pacotes</label>
+                    <label for="character11"><input type="checkbox" id="character11" name="character" value="personagem11"> Manipulação de dados com biblioteca</label>
+                    <label for="character12"><input type="checkbox" id="character12" name="character" value="personagem12"> Aprendizado de máquina</label>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script src="script/script.js"></script>

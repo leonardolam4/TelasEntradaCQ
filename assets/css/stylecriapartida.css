@@ -5,31 +5,34 @@ body {
     background-color: #201b2c;
 }
 
-
 .user-info img {
-    max-width: 150px; /* Defina a largura máxima para a imagem do usuário */
-    height: auto; /* Mantém a proporção da imagem */
-   
+    max-width: 150px;
+    height: auto;
 }
-  
-.score-icon {    
-    width: 12px; /* Defina a largura desejada para a imagem de pontuação */
-    height: auto; /* Mantém a proporção da imagem */
+
+.score-icon {
+    width: 12px;
+    height: auto;
 }
-  
+
+.user-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .user-info p {
-    display: flex; /* Para alinhar os elementos em uma linha */
-    align-items: center; /* Alinha verticalmente os itens ao centro */        
+    display: flex;
+    align-items: center;
     
 }
 
-.user-info span{
+.user-info span {
     color: #a4b6b6de;
     font-size: 15px;
+    
 }
 
-.user-info h3{
+.user-info h3 {
     margin-top: 2px;
     margin-bottom: 2px;
     color: #a4b6b6de;
@@ -37,11 +40,10 @@ body {
 }
 
 .user-info p img {
-    
-    margin-right: 0px; /* Adiciona um pequeno espaço entre o ícone e a pontuação */    
+    margin-right: 5px;
 }
 
-.container {    
+.container {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
@@ -49,84 +51,83 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative;
+}
+
+.divider, .section-divider {
+    border: none;
+    border-top: 2px solid #f0ffffde;
+    margin: 50px 0;
 }
 
 h1, h2 {
     text-align: center;
     color: #f0ffffde;
-    font-weight: 400; /* Ajusta a espessura da fonte para 400 (mais fino) */
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
-.language-selection, .character-selection, .opponent-selection {
+.language-selection, .character-selection, .opponent-selection, .last-game-report {
     margin-top: 30px;
 }
 
 .language, .character, .opponent {
-    display: inline-block;
-    margin: 0 10px;
     text-align: center;
 }
 
 .language img, .character img, .opponent img {
-    display: block;
     width: 100px;
     height: 100px;
     margin-bottom: 5px;
 }
 
-.btn-select {
-    display: block;
-    width: 100px;    
-    margin: 0 auto;
-    padding: 5px 10px;
-    font-size: 10px;
-    background-color: #00ff88;
-    color: #201b2c;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-bottom: 60px;
-}
-
-.btn-select:hover {
-    background-color: #00ff88;
-}
-
-/* Estilos para os botões de opções */
-.game-options {
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 10px;        
-}
-
-
-
-.btn-option, .btn-create {
-    
+.btn-select, .btn-option, .btn-create {
     display: inline-block;
-    width: 120px;
-    margin: 10px 5px;        
-    padding: 5px 10px;
+    width: 180px;
+    margin: 10px;
+    padding: 10px;
     font-size: 15px;
     background-color: #a4b6b6de;
-    box-shadow: 0px 0px 10px 0px #00ff88;
     color: #201b2c;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    
 }
 
-.btn-create:hover{
+.btn-create:hover, .btn-option:hover, .btn-select:hover {
     background-color: #00ff88;
 }
 
-.btn-option:hover{
-    background-color: #00ff88;
+.last-game-report {
+    background-color: #37304d;
+    color: #f0ffffde;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.last-game-report h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.last-game-report p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
+.quiz-button {
+    position: absolute;
+    top: 10px; 
+    left: 5px; 
+  }
   
-  
-  
+  .quiz-button button {
+    padding: 10px 5px; 
+    font-size: 14px;
+    width: 100px; 
+    margin-left: 20px;
+  }
+
+

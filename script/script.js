@@ -88,3 +88,5 @@ function animateCompetitor(competitor, novaPosicao) {
     // Inicia a animação
     requestAnimationFrame(step);
 }
+
+

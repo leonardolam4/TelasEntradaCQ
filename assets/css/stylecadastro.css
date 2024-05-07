@@ -22,7 +22,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Alinhe os itens ao topo */
+    align-items: flex-start; 
     flex-wrap: wrap;
 }
 
@@ -180,7 +180,7 @@ body {
 @media screen and (min-width: 768px) {
     .container {
         flex-direction: row;
-        align-items: center; /* Centralize os itens na vertical em telas maiores */
+        align-items: center; 
     }
 
     .form-image {
@@ -188,7 +188,7 @@ body {
         max-width: none;
         padding: 0 1rem;
         margin-right: 2rem;
-        align-self: flex-start; /* Alinhe a imagem ao topo em telas maiores */
+        align-self: flex-start; 
     }
 
     .form {

@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #201b2c;
+    background-color: #201b2c;        
 }
 
 .user-info img {
@@ -43,8 +52,8 @@ body {
     margin-right: 5px;
 }
 
-.container {
-    max-width: 800px;
+.container {    
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
     background-color: #2f2841;
@@ -83,7 +92,7 @@ h1, h2 {
 
 .btn-select, .btn-option, .btn-create {
     display: inline-block;
-    width: 180px;
+    width: 190px;
     margin: 10px;
     padding: 10px;
     font-size: 15px;
@@ -92,6 +101,7 @@ h1, h2 {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-create:hover, .btn-option:hover, .btn-select:hover {
@@ -117,17 +127,51 @@ h1, h2 {
 }
 
 
-.quiz-button {
+.sair-button {
     position: absolute;
     top: 10px; 
     left: 5px; 
-  }
+    text-decoration: none;
+    width: 40px;
+}
   
-  .quiz-button button {
+.sair-button button {
     padding: 10px 5px; 
     font-size: 14px;
-    width: 100px; 
+    width: 40px; 
     margin-left: 20px;
-  }
+    text-decoration: none; 
+    display: inline-block; 
+    border: none; 
+    background-color: transparent; 
+    color: #a4b6b6de; 
+}
+
+.sair-button button:hover {
+    background-color: transparent; /* Mantém o fundo transparente ao passar o mouse */
+    color: #00ff88; /* Muda a cor do texto ao passar o mouse */
+}
+
+
+.settings-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.settings-button button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #a4b6b6de;
+    color: #201b2c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.settings-button button:hover {
+    background-color: #00ff88;
+}
+
 
 

@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 .container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 170px auto;
     padding: 20px;
     background: #2f2841;
     border-radius: 10px;

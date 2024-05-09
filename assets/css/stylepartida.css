@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    width: 200%;    
 }
 
 .cardbox {
@@ -86,7 +87,7 @@ body {
     margin-top: 40px;
 }
 
-.checkbox-container button {
+.checkbox-container button {    
     padding: 10px 20px;
     background-color: #201b2c;
     color: #fff;
@@ -101,6 +102,9 @@ body {
     background-color: #595663;
 }
 
+.checkbox-container h2{
+    margin-bottom: 20px;
+}
 
 .checkbox-grid {
     display: grid;
@@ -114,6 +118,8 @@ body {
 
 .checkbox-grid label {
     margin: 0;
+    color: #fff;
+    cursor: pointer;
 }
 
 .checkbox-grid input[type="checkbox"] {
@@ -122,5 +128,8 @@ body {
     cursor: pointer;
 }
 
-
-
+/* Removendo decoração de link */
+.checkbox-grid a {
+    text-decoration: none;
+    color: inherit;
+}

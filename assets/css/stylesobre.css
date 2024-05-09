@@ -44,6 +44,7 @@ p {
 .cta {
     text-align: center;
     margin-top: 40px;
+    font-weight: bold;    
 }
 .cta a {
     display: inline-block;

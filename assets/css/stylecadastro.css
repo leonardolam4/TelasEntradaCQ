@@ -45,13 +45,14 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.2rem;    
 }
 
 .login-button {
     display: flex;
     align-items: center;
-    box-shadow: 0px 10px 40px -30px #00ff8052;
+    box-shadow: 0px 10px 40px -30px #00ff8052;    
+    
 }
 
 .login-button button {
@@ -60,7 +61,7 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: progress;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px #00ff8052;    
 }
 
 .login-button button:hover {
@@ -69,8 +70,9 @@ body {
 
 .login-button button a {
     text-decoration: none;
-    font-weight: 500;
-    color: #2b134b;
+    font-weight: 600;
+    color: #2b134b;   
+    width: bold; 
 }
 
 .form-header h1 {
